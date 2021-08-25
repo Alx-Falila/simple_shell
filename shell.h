@@ -34,8 +34,8 @@ int hist;
  */
 typedef struct list_s
 {
-	char *dir;
-	struct list_s *next;
+char *dir;
+struct list_s *next;
 } list_t;
 
 /**
@@ -45,8 +45,8 @@ typedef struct list_s
  */
 typedef struct builtin_s
 {
-	char *name;
-	int (*f)(char **argv, char **front);
+char *name;
+int (*f)(char **argv, char **front);
 } builtin_t;
 
 /**
@@ -57,9 +57,9 @@ typedef struct builtin_s
  */
 typedef struct alias_s
 {
-	char *name;
-	char *value;
-	struct alias_s *next;
+char *name;
+char *value;
+struct alias_s *next;
 } alias_t;
 
 /* Global aliases linked list */
