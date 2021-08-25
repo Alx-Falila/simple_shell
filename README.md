@@ -24,7 +24,7 @@ Example:
 $ echo "echo 'hello'" | ./shellby
 'hello'
 $
-```
+``
 
 If **shellby** is invoked with standard input connected to a terminal (determined by [isatty](https://linux.die.net/man/3/isatty)(3)), an *interactive* shell is opened. When executing interactively, **shellby** displays the prompt `$ ` when it is ready to read a command.
 
