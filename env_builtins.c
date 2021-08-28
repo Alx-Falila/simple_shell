@@ -114,8 +114,10 @@ env_var = _getenv(args[0]);
 if (!env_var)
 return (0);
 
-for (size = 0; environ[size]; size++)
-		;
+for
+(size = 0;
+environ[size];
+size++);
 
 new_environ = malloc(sizeof(char *) * size);
 if (!new_environ)
